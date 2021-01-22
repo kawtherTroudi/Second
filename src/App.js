@@ -1,22 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import picture from './Summer.jpg'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div>
+        <h1 className="title red">Kawther Troudi</h1>
+        <br />
+        <img src={picture} style={{maxWidth: "700px",paddingLeft: "120px", paddingBottom: "40px"}}/>
+        <br />
+        <img src="/Fall.jpg" style={{maxWidth: "700px",paddingLeft: "1050px"}}/>
+      </div>
       </header>
     </div>
   );
